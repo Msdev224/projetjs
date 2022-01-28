@@ -1,0 +1,61 @@
+body{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bc.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+}
+#super{
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 640px;
+	width: 430px;
+	border: 3px solid white;
+	background: white;
+
+}
+#container{
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	display: flex;
+}
+input{
+	border-radius: 100%;
+	background: lightpink;
+	width: 100px;
+	height: 100px;
+	font-size: 35px;
+	border: ;
+
+}
+input[value="AC"]{
+	background: darkred;
+	color: white;
+	border: black;}
+input:hover{
+	background: skyblue;
+	color: black;
+	transition: background 0.3s;
+}
+.re{
+	width: 200px;
+	border-radius: 50px;
+
+}
+#output{
+	margin: 0 auto;
+	width: 400px;
+	background: white;
+	text-align: center;
+	margin-top: 20px;
+	height: 100px;
+	font-size: 40px;
+	font-family: 'Lato',sans-serif;
+	border-radius: 50px;
+}

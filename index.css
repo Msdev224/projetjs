@@ -1,0 +1,29 @@
+body{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bc.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+button{
+	margin: 0.5em;
+	border-radius: 5px;
+	border: none;
+	height: 44px;
+	width: 110px;
+	outline: none;
+	background: #7c7c7c2b;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}

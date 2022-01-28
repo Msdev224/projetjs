@@ -1,0 +1,40 @@
+#memoire{
+	top: 5px;
+	left: 20px;
+	display: none;
+}
+body{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bc.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+}
+.container{
+	margin: 0 auto;
+	width: 400px;
+	height: 430px;
+	border: 3px solid white;
+	
+}
+#ecran{
+	width: 350px;
+	text-align: right;
+}
+#re{
+	border-radius: 30px;
+
+}
+.col-3 py-1{
+	border-radius: 100%;
+	background: lightpink;
+	width: 100px;
+	height: 100px;
+	font-size: 35px;
+	border: ;
+}
